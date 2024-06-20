@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --color-base-white: #ffffff;
+
+  --color-base-gray-100: #F4FCFF;
+  --color-base-gray-500: #202024;
+  --color-base-gray-900: #121214; 
+
+  --color-base-blue-300:#387E96;
+  --color-base-blue-500:#065E7C;
+
+  --text-base: 1rem;
+  --text-sm: 0.875rem;
+}
+
+html, input {
+  font: 400 var(--text-base)/160% "Mulish", sans-serif;
+  color: var(--color-base-gray-900);
+}
+
+h1, h2, h3 {
+   font-size: 1.5rem;
+   color: var(--color-base-gray-500);
+}
+
+h3 {
+  font-size: 1.125rem;
+}
+
+.text-sm {
+  font-size: var(--text-sm);
+}
+
+header {
+  background: var(--color-base-blue-500);
+  padding: 0.8rem 1.75rem;
+}
+
+header .container {
+  max-width: 23.375rem;
+  margin-inline: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.625rem;
+}
+
+header a {
+  line-height: 0;
+}
+
+header img:last-child {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+header form input {
+  background: rgb(255 255 255 / 0.2);
+  border: none;
+  padding: 0.75rem 0.875rem;
+  border-radius: 0.25rem;
+
+  font-weight: 600;
+  line-height: 100%;
+
+}
+
+header form input::placeholder {
+  color: white;
+}
