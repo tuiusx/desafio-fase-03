@@ -11,10 +11,10 @@
 :root {
   --color-base-white: #ffffff;
 
-  --color-base-gray-500: #202024;
-  --color-base-gray-900: #121214; 
+  --color-base-gray-500: hsl(240, 6%, 13%);
+  --color-base-gray-900: hsl(240, 5%, 7%); 
 
-  --color-base-blue-300:#387E96;
+  --color-base-blue-300: hsl(195, 46%, 40%);
   --text-base: 1rem;
   --text-sm: 0.875rem;
 }
@@ -146,4 +146,65 @@ footer {
   padding-block: 1.5rem;
 
   margin-top: 2.5rem;
+}
+
+@media(width > 80rem) {
+  img {
+    border-radius: 5px;
+  }
+
+  #app {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "main aside"
+    "footer footer";
+
+    gap: 2.5rem 2rem;
+  }
+
+  header .container, 
+  .container {
+    max-width: initial;
+    padding: initial;
+    margin: initial;
+  }
+
+  header {
+    grid-area: header;
+  }
+
+  header .container {
+    max-width: 76rem;
+    margin-inline: auto;
+  }
+
+  header form {
+    flex: 1;
+  }
+
+  header form input {
+    width: 100%;
+  }
+
+  main {
+    grid-area: main;
+  }
+
+  main.container {
+    max-width: 50rem;
+    margin-left: auto;
+  }
+
+  aside {
+    grid-area: aside;
+  }
+
+  aside.container {
+    max-width: 24rem;
+  }
+
+  footer {
+    grid-area: footer;
+  }
 }
