@@ -20,7 +20,7 @@ Programa exclusivo do Explore, promovido pela Rocketseat para ensino de tecnolog
 <br>
 
 <p align="center">
-  <img alt="projeto FotoBlog" src="./assets/projeto.png" width="100%">
+  <img alt="projeto Blog de Gatos" src="./assets/print.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -33,11 +33,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto FotoBlog foi construído para o reforço para o estudo de grid e animações, reforçando os confeitos de css.
+O projeto Blog dos Gatos foi construído para o reforço para o estudo de grid e animações, reforçando os confeitos de css.
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/design/QgXnp9P7COUQRTkaOAQdNU/Fotoblog-%E2%80%A2-Projeto-Explorer-(Community)?m=auto&t=R8PIg8pmnDbHS6j7-6). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1256354927622258124/blog-de-gatos-desafio-explorer). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## 📄 Licença
 
